@@ -1,0 +1,151 @@
+    /* Skill */
+    #skillchild{
+        width: 100%;
+        margin: auto;            
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin-top: 40px;
+        gap: 40px;
+       
+    }
+    .Skillimage{
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        /* width: 40%; */
+        height: 200px;
+        padding: 20px;
+        border-radius: 15px;
+    }
+    .Skillimage> img{
+        /* height: 100px;
+        width: 50px; */
+        height: 80%;
+        width: 100%;
+    }
+    .Skillimage>p{
+        text-align: center;
+    }
+
+
+    /* buttun */
+    .buttonproject{
+        display: inline-block;
+        background: crimson;
+        color: #fff;
+        font-size: 25px;
+        padding: 12px 36px;
+        margin-top: 20px;
+        font-weight: 400;
+        border-radius: 6px;
+        border: 2px solid crimson;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    .buttonproject:hover{
+        color: #111;
+        background: none;
+        border: 2px solid  #111;
+    }
+    #buttonp {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+     /* small screens */
+     @media only screen and (min-width: 70px) and (max-width: 599px) {
+        #skillchild{
+            width: 100%;
+            margin: auto;            
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin-top: 40px;
+            gap: 20px;
+           
+        }
+        .Skillimage{
+            /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            /* width: 40%; */
+            height: 200px;
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .Skillimage> img{
+            /* height: 100px;
+            width: 50px; */
+            height: 80%;
+            width: 100%;
+        }
+        .Skillimage>p{
+            text-align: center;
+        }
+      }
+
+      .box1 img{
+        /* height: 150px; */
+        height: 100px;
+        /* width: 150px; */
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 5px solid crimson;
+        transition: all 0.3s ease;
+    }
+    .box1 :hover img{
+        border-color: #fff;
+    }
+
+
+
+
+
+
+
+
+      /* small screens */
+     @media only screen and (min-width: 599px) and (max-width: 931px) {
+        #skillchild{
+            width: 100%;
+            margin: auto;            
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            margin-top: 40px;
+            gap: 20px;
+           
+        }
+        .Skillimage{
+            /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            /* width: 40%; */
+            height: 200px;
+            padding: 20px;
+            border-radius: 15px;
+        }
+        .Skillimage> img{
+            /* height: 100px;
+            width: 50px; */
+            height: 80%;
+            width: 100%;
+        }
+        .Skillimage>p{
+            text-align: center;
+        }
+      }
+
+
+      #githubh> i{
+        font-size: 40px;
+        margin-top: 10px;
+        cursor: pointer;
+        
+      }
+      .fa-linkedin {
+        margin-left: 10px;
+      }
+      /* #githubh> i:hover{ */
+        /* color: crimson; */
+        /* background-color:crimson; */
+        /* color: black; */
+        /* border: 5px solid crimson; */
+      /* } */
